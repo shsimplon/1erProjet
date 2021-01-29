@@ -17,9 +17,9 @@ body {
     font-size: 1.2rem;
 }
 
-section {
-    margin-left: 2%;
-    margin-right: 2%;
+#entreprise {
+    margin-left: 4%;
+    margin-right: 4%;
     margin-bottom: 4%;
 }
 
@@ -34,16 +34,29 @@ header {
     justify-content: center;
 }
 
-.headertext>p {
-    color: white;
-    border: 1px solid gold;
-    width: 50px;
-    height: 25px;
-    background: black;
+div.headertext>a>img {
     text-align: center;
     position: absolute;
     bottom: 90%;
-    right: 50px;
+    right: 28%;
+    width: 20px;
+    height: 20px;
+}
+
+div.headertext>a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    bottom: 85%;
+    right: 5%;
+    position: absolute;
+    font-weight: bold;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid blanchedalmond;
 }
 
 nav {
@@ -56,7 +69,6 @@ nav {
 
 nav>ul {
     display: flex;
-    border: 2px solid blanchedalmond;
     list-style: none;
     flex: 1;
     justify-content: center;
@@ -93,6 +105,7 @@ button {
     width: 100px;
     background: none;
     background: black;
+    border-style: none;
     margin-right: 2%;
     font-size: 1.5rem;
     font-weight: normal;
@@ -114,23 +127,25 @@ a img {
 }
 
 header>h1 {
-    color: black;
-    font-size: 4vw;
+    color: gold;
+    font-size: 4rem;
+    bottom: 60%;
+    right: 70%;
+    position: absolute;
+    line-height: 40px;
 }
 
 
 /* contenu */
 
 section {
-    margin-left: 3%;
-    margin-right: 3%;
     margin-bottom: 4%;
 }
 
 
 /* contact */
 
-#contact>h1 {
+#Contact>h1 {
     color: white;
     font-style: italic;
     font-size: 1.5rem;
@@ -145,7 +160,7 @@ section {
     padding-bottom: 2%;
 }
 
-#contact {
+#Contact {
     background-color: black;
     color: gold;
     padding-top: 4%;
@@ -165,6 +180,14 @@ form {
 input {
     padding: 5px;
     font-size: x-large;
+}
+
+label {
+    line-height: 23px;
+}
+
+label>span {
+    font-size: 1rem;
 }
 
 input {

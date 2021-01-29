@@ -35,20 +35,30 @@
     }
     
     h1 {
-        color: black;
+        color: gold;
         font-size: 4rem;
+        bottom: 60%;
+        right: 70%;
+        position: absolute;
     }
     
-    .headertext>p {
-        color: white;
-        border: 1px solid gold;
-        width: 50px;
-        height: 25px;
-        background: black;
+    div.headertext>a>img {
         text-align: center;
         position: absolute;
         bottom: 90%;
-        right: 50px;
+        right: 28%;
+        width: 20px;
+        height: 20px;
+    }
+    
+    div.headertext>a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+        bottom: 85%;
+        right: 5%;
+        position: absolute;
+        font-weight: bold;
     }
     
     nav {
@@ -133,12 +143,12 @@
         transition: transform 0.5s;
     }
     
-    #femme {
+    #Femme {
         padding-top: 3%;
         gap: 20px;
     }
     
-    #homme {
+    #Homme {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -155,7 +165,7 @@
     }
     
     .pull {
-        border: 2px solid white;
+        border: 0.1px solid white;
     }
     
     span {
@@ -331,4 +341,8 @@
     
     .cart-icon {
         padding-right: 8px;
+    }
+    
+    .active {
+        border: 2px solid gold;
     }

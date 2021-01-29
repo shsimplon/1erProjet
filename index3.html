@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -21,30 +21,40 @@
             </div>
 
             <div class="recherche">
-                <a href="" class="defaultbutton greenbutton"><i class="fas fa-search"></i></a>
-                <p>Panier</p>
+                <a href="#" class="defaultbutton greenbutton"><i class="fas fa-search"></i></a>
+                <a href="#panier" class="panier"> <img src="images/panier2.svg" alt="image panier"> Panier</a>
+
             </div>
         </div>
         <div class="contact">
             <h2>SE CONNECTER</h2>
-            <p>*CHAMPS OBLIGATOIRES</p>
-            <input type="email" name="email" placeholder=" email">
+            <p id="email">*CHAMPS OBLIGATOIRES</p>
+
+            <input aria-label="entrez l'émail" aria-describedby="email" type="email" name="email" placeholder="sophie@example.com">
+
             <hr>
             <div class="motdepasse">
-                <p>Se souvenir de moi</p>
-                <P>Mot de passe oublié? <br> Active mon compte </P>
+                <a href="#">Se souvenir de moi</a> <br>
+
+                <a href="#">Mot de passe oublié? </a> <br>
+                <a href="#">Active mon compte </a>
 
             </div>
-            <p class="para">suivant</p>
+            <div id="suivant"></div>
+            <button class="para" aria-label="suivant" aria-describedby="suivant"> <a href="#">Suivant</a></button>
             <h2>CREÉR UN COMPTE</h2>
             <ul>
                 <li>Passer vos commandes plus rapidement</li>
                 <li>Renoyez les details de vos commandes</li>
 
             </ul>
-            <p>créer un compte</p>
+            <div id="creer un compte"> </div>
+            <button class="para" aria-label="creer un compte" aria-describedby="creer un compte"> 
+                <a href="#">Créer un compte</a></button>
+
         </div>
     </main>
+    <script src="index1.js"></script>
 </body>
 
 </html>

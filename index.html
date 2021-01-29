@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -13,12 +13,12 @@
 </head>
 
 <body onscroll="myFunction()">
-
+    <!-- header -->
     <header>
         <h1> Amelia Collections</h1>
         <div class="headertext">
 
-            <p>Panier</p>
+            <a href="#panier" class="panier"> <img src="images/panier2.svg" alt="image panier"> Panier</a>
         </div>
     </header>
 
@@ -27,16 +27,16 @@
             <li class="logo">
                 <a href="index2.html" target="_blank"><img src="images/_logo.png" alt="le logo de la collection"></a>
             </li>
-            <li><a href="#femme">Femme</a></li>
-            <li><a href="#homme">Homme</a></li>
-            <li><a href="#solde">Solde</a></li>
-            <li><a href="index2.html#contact">Contact</a></li>
+            <li><a href="#Femme">Femme</a></li>
+            <li><a href="#Homme">Homme</a></li>
+            <li><a href="#Solde">Solde</a></li>
+            <li><a href="index2.html#Contact">Contact</a></li>
         </ul>
-        <button> <a href="index3.html" target="_blank">Login</a> </button>
+        <button aria-label="connectez vous"> <a href="index3.html" target="_blank">Login</a> </button>
     </nav>
-
+    <!-- section produits femmes -->
     <section id="contenair">
-        <section id="femme">
+        <section id="Femme">
             <div class="produit">
                 <figure>
                     <img src="femmes/imgf1.png" alt="image femme">
@@ -102,8 +102,8 @@
 
             </div>
         </section>
-
-        <section id="homme">
+        <!-- section produits hommes  -->
+        <section id="Homme">
             <div class="produit">
                 <figure>
                     <img src="femmes/imgh7.png" alt="homme avec un pull">
@@ -147,10 +147,10 @@
                     </div>
                 </figure>
             </div>
-
+            <!-- produits soldes -->
 
         </section>
-        <section id="solde">
+        <section id="Solde">
             <div class="produit1 produit relative">
                 <figure>
                     <img src="soldes/img1.png" alt="image femme">
@@ -208,6 +208,7 @@
                 </figure>
             </div>
         </section>
+        <!-- footer -->
         <footer>
             <div class="mainfoot">
                 <div class="icons">
@@ -220,9 +221,9 @@
                 <div class="liensutiles">
                     <h3 id="shopfooter">Shop</h3>
                     <ul>
-                        <li><a href="index.html#femme">Femme</a></li>
-                        <li><a href="index.html#homme">Homme</a></li>
-                        <li><a href="index.html#solde">Soldes</a></li>
+                        <li><a href="index.html#Femme">Femme</a></li>
+                        <li><a href="index.html#Homme">Homme</a></li>
+                        <li><a href="index.html#Solde">Soldes</a></li>
                     </ul>
                 </div>
                 <div class="liensutiles">
@@ -238,7 +239,7 @@
                     <ul>
                         <li><a href="index2.html#equipe" target=" _blank">L'équipe</a></li>
                         <li><a href="index2.html#entreprise" target=" _blank">L'entreprise</a></li>
-                        <li><a href="index2.html#contact" target=" _blank">Contact</a></li>
+                        <li><a href="index2.html#Contact" target=" _blank">Contact</a></li>
                     </ul>
                 </div>
 
@@ -251,6 +252,7 @@
 
     </section>
     <script src="index.js"></script>
+    <script src="index1.js"></script>
 </body>
 
 </html>
