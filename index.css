@@ -98,21 +98,6 @@
         align-items: center;
     }
     
-    button {
-        display: inline-block;
-        cursor: pointer;
-        color: gold;
-        padding: 2px 2px;
-        text-decoration: none;
-        width: 100px;
-        background: none;
-        background: black;
-        border-style: none;
-        margin-right: 2%;
-        font-size: 1.5rem;
-        font-weight: normal;
-    }
-    
     button:active {
         position: relative;
         top: 1px;
@@ -288,8 +273,8 @@
         padding-left: 20%;
     }
     
-    #buttonLeftMid,
-    #buttonRightMid {
+    .ButtonLeftMid,
+    .ButtonRightMid {
         padding-left: 0;
     }
     
