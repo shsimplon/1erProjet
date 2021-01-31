@@ -343,6 +343,6 @@
         padding-right: 8px;
     }
     
-    .active {
-        border: 2px solid gold;
+    .actived {
+        border-bottom: 1px solid gold;
     }

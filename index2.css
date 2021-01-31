@@ -249,6 +249,7 @@ input[ type="submit"] {
 .presentations>h1 {
     padding-bottom: 2%;
     font-size: 2rem;
+    padding-left: 5%;
 }
 
 #titreprezequipe {
@@ -390,4 +391,9 @@ li.logo {
     max-width: 0;
     overflow: hidden;
     transition: all .5s;
+}
+
+.actived {
+    border-bottom: 1px solid gold;
+    ;
 }
